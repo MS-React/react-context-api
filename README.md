@@ -1,4 +1,4 @@
-# Directly Training Project
+# React Context API
 
 # Back end deployment to Heroku
 Create a [Heroku](https://www.heroku.com) account.
