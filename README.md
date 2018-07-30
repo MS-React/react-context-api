@@ -8,10 +8,10 @@ How does it work?
 - Provider
 - Consumer
 
-# Configuration
+### Configuration
 Works with newest versions from React `16.3.0`
 
-# Context: authContext
+### Context: authContext
 Notice how the context does not have its own state. It is merely a conduit for your data. You have to pass a value to the Provider, and that exact value gets passed down to any Consumers that know how to look for it (Consumers that are bound to the same context as the Provider).
 ```javascript
 import React from 'react';
@@ -29,7 +29,7 @@ export const AuthContext = React.createContext({
   ...auth
 });
 ```
-# Provider: AppProvider
+### Provider: AppProvider
  Very similar to React-Redux’s Provider. It accepts a value prop which can be whatever you want (it could even be a Redux store… but that’d be silly). It’ll most likely be an object containing your data and any actions you want to be able to perform on the data.
 ```javascript
 class AppProvider extends React.Component {
@@ -69,7 +69,7 @@ AppProvider.propTypes = {
 
 export default AppProvider;
 ```
-# Consumer
+### Consumer
 Works a little bit like React-Redux’s connect function, tapping into the data and making it available to the component that uses it.
 ```javascript
 export default class Main extends React.Component {
