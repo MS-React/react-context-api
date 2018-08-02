@@ -2,8 +2,6 @@
 
 Directly training app, is an application with **webpack**, **react** and **redux** to make additions, deletions, and modifications from users.
 
-This repository is the base of the feature repositories that forks from here. With the minimal setup.
-
 ## Prerequisites
 
 ## Ubuntu
